@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Anton&family=Dancing+Script:wght@700&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Fascinate&family=Fasthand&family=Josefin+Sans:ital,wght@1,600&family=Lobster&family=Lora:ital,wght@0,600;1,400&family=Noto+Sans+HK&family=Noto+Serif&family=Pacifico&family=Rubik+Distressed&family=Rubik+Iso&family=Rubik+Moonrocks&family=Smokum&family=Smooch&display=swap');
+body{
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOgoWj_habcpXtA35_-VwqckRlGeqcZAYc2zyiDUtQsJiYeg1NOPtVZy9BcELUIjzzumI&usqp=CAU');
+   background-size: cover;
+   background-repeat: no-repeat;
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    background: blue;
+    width: 100%;
+    margin-top: 0px;
+    height: 50px;
+}
+.links{
+    display: inline;
+    
+    font-size: 25px;
+    padding-left: 30px;
+    padding: 30px;
+}
+
+a{
+    
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px red;
+}
+/* pseudo class - selector : pseudo class{ property:value;} */
+a:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.profile{
+    margin-top: 100px;
+    width: 500px;
+}
+
+#name{
+    font-family: 'Fasthand', cursive;
+    font-size: 50px;
+}
+#welcome{
+    background: linear-gradient(to right, aqua,rgb(30, 212, 61));
+}
+.line{
+    height: 6px;
+    box-shadow: 2px 2px 2px red;
+    background-color: black;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: black;
+}
+.contact_1 h3{
+    display: inline;
+}
+.mail{
+    color: white;
+}
